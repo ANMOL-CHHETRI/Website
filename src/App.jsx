@@ -12,6 +12,7 @@ import MyBlog from './pages/MyBlog'
 import EditBlog from './pages/EditBlog' 
 import MyProfile from './pages/MyProfile'
 import EditProfile from "./pages/EditProfile";
+import About from './pages/About';
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Loginform />} />
         <Route path="/register" element={<Registrationform />} />
+        <Route path="/about" element={<About/>}/>
       </Routes>
     </Router>
   );
